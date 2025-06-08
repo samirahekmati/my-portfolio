@@ -6,48 +6,143 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Samira's Porfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   </head>
   <body>
-    <header>
-      <h1>Samira</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hello! I’m Samira, a passionate web developer. I build simple, clean,
-        and creative web apps.
-      </p>
-    </section>
-
-    <section id="projects">
-      <h2>My Projects</h2>
-      <div class="project-grid">
-        <div class="card">
-            <h3>Quote Generator</h3>
-            <p>A random quote generator using HTML, CSS, and JavaScript.</p>
-            <a href="https://qw8ows84gokgoccccg00kcgg.hosting.codeyourfuture.io/" target="_blank"> Live Site</a><br>
-            <a href="https://github.com/samirahekmati/Quote-Generator" target="_blank"> GitHub</a>
+    <div class="container">
+      <!-- Left Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="IMG_7733.JPG"
+          alt="Samira's photo"
+          class="profile-pic"
+        />
+        <h1>Samira</h1>
+        <div class="about-text">
+            <p>
+              I’m a developer who finds joy in solving puzzles and crafting clean, user-friendly experiences. To me, code is more than syntax — it’s a way to bring ideas to life and create something meaningful from scratch.
+            </p>
+            <p>
+              I get excited by challenges and love that moment when a stubborn bug finally gives in. But what drives me just as much is the human side of tech — collaborating, learning, sharing wins with others.
+            </p>
+            <p>
+              I believe the best projects are built through both technical skill and genuine teamwork. So let’s collaborate and build something we’re proud of.
+            </p>
           </div>
-      </div>
-    </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        Feel free to reach out:
-        <a href="mailto:samirahekmati@gmail.com">samirahekmati@gmail.com</a>
-      </p>
-    </section>
+          <div class="connect">
+           
+            <a href="https://github.com/samirahekmati" target="_blank" aria-label="GitHub" class="social-link">
+              <!-- GitHub SVG icon -->
+              <svg
+                height="32"
+                width="32"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                class="social-icon"
+              >
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.22 2.2.82a7.56 7.56 0 012.01-.27c.68 0 1.36.09 2.01.27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/samirahekmati/" target="_blank" aria-label="LinkedIn" class="social-link">
+              <!-- LinkedIn SVG icon -->
+              <svg
+                height="32"
+                width="32"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                class="social-icon"
+              >
+                <path d="M4.98 3.5C4.98 4.88 3.9 6 2.5 6S0 4.88 0 3.5 1.08 1 2.5 1s2.48 1.12 2.48 2.5zM0 8h5v16H0V8zm7.25 0h4.68v2.16h.06c.65-1.23 2.25-2.53 4.63-2.53 4.95 0 5.86 3.25 5.86 7.46V24h-5v-7.94c0-1.9-.03-4.34-2.64-4.34-2.65 0-3.05 2.07-3.05 4.21V24h-5V8z"/>
+              </svg>
+            </a>
 
-    <footer>
-      <p>© 2025 Samira</p>
-    </footer>
+            
+              
+          </div>
+      </aside>
+
+      <!-- Right Scrollable Content -->
+      <main class="main-content">
+        <section class="projects">
+          <h2>My Projects</h2>
+          <div class="project-card">
+            <h3>Chat Application (WebSockets) - Fullstack</h3>
+            
+            <p class="project-links">
+              <a href="https://your-deployment-link.com" target="_blank">Live Demo</a> |
+              <a href="https://github.com/yourusername/chat-application" target="_blank">GitHub Repo</a>
+            </p>
+            
+            <p class="project-description">
+              A real-time chat app that allows users to send and receive messages instantly. It’s built with WebSockets and focuses on a smooth, minimal UI for clean communication.
+            </p>
+            
+            <p class="project-tech">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, WebSockets
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3>Chat Application (Long-Polling) - Fullstack</h3>
+            
+            <p class="project-links">
+              <a href="https://your-deployment-link.com" target="_blank">Live Demo</a> |
+              <a href="https://github.com/samirahekmati/chat-application/tree/main/Long-polling" target="_blank">GitHub Repo</a>
+            </p>
+            
+            <p class="project-description">
+              A real-time chat app that allows users to send and receive messages instantly. It’s built with WebSockets and focuses on a smooth, minimal UI for clean communication.
+            </p>
+            
+            <p class="project-tech">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express.js
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3>Quote-Generator App - Fullstack</h3>
+            
+            <p class="project-links">
+              <a href="https://qw8ows84gokgoccccg00kcgg.hosting.codeyourfuture.io/" target="_blank">Live Demo</a> |
+              <a href="https://github.com/samirahekmati/Quote-Generator" target="_blank">GitHub Repo</a>
+            </p>
+            
+            <p class="project-description">
+                A simple and elegant web app that generates inspiring and motivational quotes at the click of a button. Built with vanilla JavaScript, HTML, and CSS, it features a clean interface and smooth user experience. Plus, you can add your own favorite quotes to keep the inspiration flowing!
+            </p>
+            
+            <p class="project-tech">
+              <strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, Express.js
+            </p>
+          </div>
+
+          <div class="project-card">
+            <h3>Shared Bookmars - Frontend</h3>
+            
+            <p class="project-links">
+              <a href="https://qw8ows84gokgoccccg00kcgg.hosting.codeyourfuture.io/" target="_blank">Live Demo</a> |
+              <a href="https://github.com/samirahekmati/Shared-bookmarks-solo-project" target="_blank">GitHub Repo</a>
+            </p>
+            
+            <p class="project-description">
+                A user-friendly web app that allows switching between two users to view and manage their bookmarks. The app displays bookmarks in reverse chronological order, showing each with a clickable title, description, and creation date. Users can easily add new bookmarks via a form specifying URL, title, and description, which instantly updates the list for the selected user. If no bookmarks exist, a clear message informs the user. Built with accessibility in mind, the app scores a perfect 100 on Lighthouse accessibility tests. The project also includes unit tests to ensure reliable functionality.
+            </p>
+            
+            <p class="project-tech">
+              <strong>Technologies:</strong> HTML, CSS, Vanilla JavaScript
+            </p>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:samirahekmati@gmail.com">samirahekmati@gmail.com</a></p>
+        </section>
+      </main>
+    </div>
 
     <script src="script.js"></script>
   </body>

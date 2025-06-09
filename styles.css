@@ -24,7 +24,6 @@
     background-color: #222;
     color: white;
     padding: 30px 20px;
-    text-align: center;
     overflow-y: auto;
   }
   
@@ -67,7 +66,6 @@
 
   .about-text {
     background-color: #f7f9fc;
-    border-left: 4px solid #4a90e2;
     padding: 1rem 1.25rem;
     margin-top: 1.5rem;
     border-radius: 8px;

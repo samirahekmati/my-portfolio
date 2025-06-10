@@ -65,12 +65,12 @@
   }
 
   .about-text {
-    background-color: #f7f9fc;
+    /* background-color: #f7f9fc; */
     padding: 1rem 1.25rem;
     margin-top: 1.5rem;
     border-radius: 8px;
     font-size: 0.95rem;
-    color: #444;
+    color: #f7f9fc;
     line-height: 1.6;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
   }
